@@ -115,7 +115,10 @@ h2 {
 }
 @media (max-width: 500px) {
   h2 {
-    padding-left: 75px;
+    border: solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 h3 {
@@ -127,9 +130,9 @@ h3 {
 @media (max-width: 500px) {
   h3 {
     border: solid;
-    padding-left: 100px;
-    padding-top: 10px;
-    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 p {
