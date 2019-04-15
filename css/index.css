@@ -113,6 +113,25 @@ h2 {
   color: #ffa500;
   padding: 10px 10px 10px 0px;
 }
+@media (max-width: 500px) {
+  h2 {
+    padding-left: 75px;
+  }
+}
+h3 {
+  font-family: 'BioRhyme', serif;
+  font-size: 1.8rem;
+  color: #ffa500;
+  padding: 10px 10px 10px 0px;
+}
+@media (max-width: 500px) {
+  h3 {
+    border: solid;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-top: 0px;
+  }
+}
 p {
   font-family: 'BioRhyme', serif;
 }
@@ -146,6 +165,12 @@ body {
 .container {
   width: 1000px;
   margin: auto;
+  border: solid;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
 }
 header {
   border: dashed black;
@@ -153,11 +178,23 @@ header {
   justify-content: center;
   background: #0e0b2a;
 }
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 header .headerbtn {
   border: solid green;
   padding: 5px 5px 5px 5px;
   margin: 5px 5px 5px 5px;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  header .headerbtn {
+    width: 100%;
+    margin: auto;
+  }
 }
 header h1 {
   font-size: 1.8rem;
@@ -166,6 +203,15 @@ header h1 {
   margin: 5px 5px 5px 5px;
   font-family: 'Monoton', cursive;
   color: #ffa500;
+}
+@media (max-width: 500px) {
+  header h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+  }
 }
 nav {
   border: solid;
@@ -186,9 +232,20 @@ nav a {
   border: solid blue;
   display: flex;
 }
+@media (max-width: 500px) {
+  .top-content {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
 .top-content .intro {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 500px) {
+  .top-content .intro {
+    padding: 10px 10px 10px 10px;
+  }
 }
 .top-content .planner {
   width: 100%;
@@ -199,19 +256,47 @@ nav a {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .middle-content {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 .middle-content .middle-text {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .middle-content .middle-text {
+    padding: 10px 10px 10px 10px;
+  }
+}
 .middle-content .calendar {
   width: 50%;
   height: 250px;
+}
+@media (max-width: 500px) {
+  .middle-content .calendar {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+  }
+}
+.middle-content .middlebtn {
+  border: solid green;
+  width: 20%;
+  margin-left: 36%;
+  margin-top: 10px;
 }
 footer {
   display: flex;
   border: solid yellow;
   background: #0e0b2a;
   width: 100%;
+}
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
 }
 footer .footernav {
   width: 100%;
