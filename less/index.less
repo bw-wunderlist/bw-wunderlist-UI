@@ -32,13 +32,18 @@ body {
     line-height: 1;
     
 }
-.container{
-    width:1000px;
-    margin:auto;
-    border:solid;
 
-
+h2{
+    font-family: @main-font;
+    font-size: 1.8rem;
+    color:@h1-color;
+    padding:10px 10px 10px 0px;
 }
+p{
+    font-family: @main-font;
+    
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -64,3 +69,94 @@ html, body {
     height: 100%;
 }
 
+.container{
+    width:1000px;
+    margin:auto;
+    //border:solid;
+
+
+}
+header{
+    border:dashed black;
+    display:flex;
+   justify-content: center;
+   background:#0e0b2a;
+
+   .headerbtn{
+       border:solid green;
+       padding:5px 5px 5px 5px;
+       margin:5px 5px 5px 5px;
+       cursor: pointer;
+   }
+   h1{
+       font-size: 1.8rem;
+       border:solid pink;
+       padding-right:40px;
+       margin:5px 5px 5px 5px;
+       font-family: 'Monoton', cursive;
+       color:#ffa500;
+   }
+}
+nav{
+    border:solid;
+    display:flex;
+   // justify-content: space-around;
+    padding-right:20px;
+    padding-left:20px;
+    a{
+        border:solid red;
+        text-decoration:none;
+        display:flex;
+        justify-content: space-around;
+        margin:10px 10px 10px 10px;
+        color:@h1-color;
+        font-family: 'BioRhyme', serif;
+    }
+}
+.top-content{
+    border:solid blue;
+    display:flex;
+    
+    
+    .intro{
+        display:flex;
+        flex-direction: column;
+    }
+    .planner{
+        width:100%;
+        padding-top:20px;
+    }
+
+}
+
+.middle-content{
+    display:flex;
+    padding-top:20px;
+    padding-bottom:10px;
+
+    .middle-text{
+        display:flex;
+        flex-direction: column;
+    }
+    .calendar{
+        width:50%;
+        height:250px;
+    }
+}
+
+footer{
+    display:flex;
+    border:solid yellow;
+    background:@header-bg;
+    width:100%;
+    .footernav{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+}
+
+//colors and attributes
+@main-font:'BioRhyme', serif;
+@h1-color:#ffa500;
+@header-bg:#0e0b2a;
