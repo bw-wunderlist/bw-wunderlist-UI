@@ -118,8 +118,10 @@ header{
 
    .headerbtn{
       // border:solid green;
+        border-radius: 5px;
        padding:5px 5px 5px 5px;
        margin:5px 5px 5px 5px;
+       font-family: @main-font;
        cursor: pointer;
 
        @media @mobile{
@@ -181,18 +183,26 @@ nav{
     
     .intro{
         display:flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         padding:10px 10px 10px 10px;
         
         @media @mobile{
             padding:10px 10px 10px 10px;
             
         }
+
+        .intro-text{
+            display:flex;
+            flex-direction: column;
+            padding: 70px 10px 10px 10px;
+        }
         
     }
     .planner{
-        width:100%;
-        padding-top:20px;
+        width:50%;
+        height:400px;
+       // padding-top:20px;
+        border-radius: 5px;
     }
 
 }
@@ -221,6 +231,7 @@ nav{
     .calendar{
         width:50%;
         height:250px;
+        border-radius: 5px;
 
         @media @mobile{
             width:100%;
@@ -229,9 +240,11 @@ nav{
     }
     .middlebtn{
       //  border:solid green;
+        border-radius: 5px;
         width:20%;
         margin-left:36%;
         margin-top:10px;
+        font-family: @main-font;
         cursor: pointer;
     }
 }
@@ -261,3 +274,109 @@ footer{
 // media queries
 
 @mobile: ~"(max-width: 500px)";
+
+
+//tabs
+
+.cards-container {
+    .flex(space-evenly);
+    
+    margin-top: 16px;
+    flex-wrap: wrap;
+  
+    .card {
+      
+     
+     display:flex;
+     flex-direction: column;
+     
+     
+      width: 380px;
+      margin-bottom: 16px;
+      padding: 24px;
+      .headline {
+       // border:solid;
+        font-size: 25px;
+        font-family: Didot, serif;
+        display:flex;
+        justify-content: center;
+      }
+    
+        .img-container {
+          display:flex;
+          padding-right: 10px;
+          //border-right: 1px solid @h1-color;
+          height: 40px;
+          img {
+            //border:solid red;
+            width: 20%;
+            margin-top:10px;
+            margin-left:130px;
+           
+          }
+       
+       
+      }
+    }
+  }
+  .aboutheader {
+    .flex(space-between, center);
+   
+    height: 120px;
+    margin-top: 44px;
+    padding-bottom: 15px;
+   
+    h4 {
+      font-size: 60px;
+      font-family: @main-font;
+      font-weight: bold;
+      flex: 8;
+      text-align: center;
+      color: @h1-color;
+    }
+    
+  }
+  .tabs {
+   
+    .flex(center, center);
+        height: 47px;
+    .members {
+      .flex(none, center);
+      .about {
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color:@h1-color;
+      }
+      .tab {
+        .flex(none, center);
+        color: @h1-color;
+        background-color: @header-bg;
+        margin: 0 5px;
+        padding: 2px 10px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .active-tab {
+        background-color: @h1-color;
+        color: @header-bg;
+        border: 2px solid @header-bg;
+      }
+    }
+  }
+  
+  
+  
+  
+  .flex(@jc: none, @ai: none, @dir: row) {
+    display: flex;
+    justify-content: @jc;
+    align-items: @ai;
+    flex-direction: @dir;
+  }
+
