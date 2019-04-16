@@ -305,6 +305,25 @@ nav a {
   font-family: 'BioRhyme', serif;
   cursor: pointer;
 }
+.bottom-content {
+  display: flex;
+  justify-content: center;
+}
+.bottom-content h5 {
+  font-family: 'BioRhyme', serif;
+  color: #ffa500;
+  font-size: 1.8rem;
+}
+.bottom-content .icons {
+  margin-left: 25%;
+  cursor: pointer;
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+  color: #ffa500;
+  background: #0e0b2a;
+}
 footer {
   display: flex;
   background: #0e0b2a;
