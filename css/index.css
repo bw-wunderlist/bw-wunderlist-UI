@@ -115,7 +115,6 @@ h2 {
 }
 @media (max-width: 500px) {
   h2 {
-    border: solid;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -129,7 +128,6 @@ h3 {
 }
 @media (max-width: 500px) {
   h3 {
-    border: solid;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -168,7 +166,6 @@ body {
 .container {
   width: 1000px;
   margin: auto;
-  border: solid;
 }
 @media (max-width: 500px) {
   .container {
@@ -176,7 +173,6 @@ body {
   }
 }
 header {
-  border: dashed black;
   display: flex;
   justify-content: center;
   background: #0e0b2a;
@@ -188,7 +184,6 @@ header {
   }
 }
 header .headerbtn {
-  border: solid green;
   padding: 5px 5px 5px 5px;
   margin: 5px 5px 5px 5px;
   cursor: pointer;
@@ -201,7 +196,6 @@ header .headerbtn {
 }
 header h1 {
   font-size: 1.8rem;
-  border: solid pink;
   padding-right: 40px;
   margin: 5px 5px 5px 5px;
   font-family: 'Monoton', cursive;
@@ -217,13 +211,11 @@ header h1 {
   }
 }
 nav {
-  border: solid;
   display: flex;
   padding-right: 20px;
   padding-left: 20px;
 }
 nav a {
-  border: solid red;
   text-decoration: none;
   display: flex;
   justify-content: space-around;
@@ -232,7 +224,6 @@ nav a {
   font-family: 'BioRhyme', serif;
 }
 .top-content {
-  border: solid blue;
   display: flex;
 }
 @media (max-width: 500px) {
@@ -244,6 +235,7 @@ nav a {
 .top-content .intro {
   display: flex;
   flex-direction: column;
+  padding: 10px 10px 10px 10px;
 }
 @media (max-width: 500px) {
   .top-content .intro {
@@ -268,6 +260,7 @@ nav a {
 .middle-content .middle-text {
   display: flex;
   flex-direction: column;
+  padding: 10px 10px 10px 10px;
 }
 @media (max-width: 500px) {
   .middle-content .middle-text {
@@ -285,14 +278,13 @@ nav a {
   }
 }
 .middle-content .middlebtn {
-  border: solid green;
   width: 20%;
   margin-left: 36%;
   margin-top: 10px;
+  cursor: pointer;
 }
 footer {
   display: flex;
-  border: solid yellow;
   background: #0e0b2a;
   width: 100%;
 }
