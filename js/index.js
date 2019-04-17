@@ -1,7 +1,7 @@
 
 // buttons
 
-let login=document.querySelector('#login');
+/*let login=document.querySelector('#login');
 login.addEventListener('mouseover',(event)=>{
     event.target.style.color='#ffa500';
     event.target.style.background='#0e0b2a';
@@ -42,5 +42,5 @@ middlesignup.addEventListener('mouseout',(event)=>{
     event.target.style.color='#0e0b2a';
     event.target.style.background='#ffa500';
     
-});
+});*/
 
