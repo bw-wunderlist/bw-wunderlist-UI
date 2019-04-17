@@ -92,10 +92,14 @@ html, body {
     height: 100%;
 }
 
-body{
- background:linear-gradient(white,rgb(194, 191, 191),rgb(194, 191, 191),white);
+/*body{
+ //background:linear-gradient(white,rgb(194, 191, 191),rgb(194, 191, 191),white);
+
+  
  
-}
+}*/
+
+
 
 .container{
     width:1000px;
@@ -441,4 +445,36 @@ footer{
   justify-content: @jc;
   align-items: @ai;
   flex-direction: @dir;
+}
+
+
+// animations
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, white 50%, rgb(194, 191, 191) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
 }
