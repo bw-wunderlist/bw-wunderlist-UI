@@ -220,15 +220,16 @@ header .headerbtn {
     margin-left: 25%;
   }
 }
-header h1 {
+header .logo {
   font-size: 1.8rem;
   padding-right: 40px;
   margin: 5px 5px 5px 5px;
   font-family: 'Monoton', cursive;
   color: #ffa500;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
-  header h1 {
+  header .logo {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -236,7 +237,7 @@ header h1 {
   }
 }
 @media (max-width:800px) {
-  header h1 {
+  header .logo {
     width: 98%;
     display: flex;
     justify-content: center;
