@@ -111,6 +111,9 @@ html, body {
         
     }
 
+    @media @tablet{
+      width:100%;
+    }
    
 
 
@@ -125,6 +128,10 @@ header{
     width:100%;
     flex-direction: column;
 }
+    @media @tablet{
+      width:100%;
+      flex-direction: column;
+    }
 
    .headerbtn{
       // border:solid green;
@@ -136,15 +143,22 @@ header{
        cursor: pointer;
 
        @media @mobile{
+         //border:solid red;
            width:100%;
            margin:auto;
            
            
        }
+       @media @tablet{
+        // border:solid red;
+         width:50%;
+         margin-left:25%;
+
+       }
    }
    h1{
        font-size: 1.8rem;
-      // border:solid pink;
+       //border:solid pink;
        padding-right:40px;
        margin:5px 5px 5px 5px;
        font-family: 'Monoton', cursive;
@@ -157,11 +171,13 @@ header{
         justify-content: center;
         margin:auto;
        // padding:auto;
-        
-       
-        
-        
-    }
+      }
+      @media @tablet{
+        //border:solid red;
+        width:98%;
+        display:flex;
+        justify-content: center;
+      }
    }
 }
 nav{
@@ -170,6 +186,13 @@ nav{
    // justify-content: space-around;
     padding-right:20px;
     padding-left:20px;
+
+    @media @tablet{
+      //border:solid red;
+      width:98%;
+      display:flex;
+      justify-content: center;
+    }
    
         
     a{
@@ -213,7 +236,13 @@ nav{
             padding: 70px 10px 10px 10px;
 
             @media @mobile{
+             
               padding-top:10px;
+            }
+
+            @media @tablet{
+              //border:solid red;
+              padding-top: 0px;
             }
 
         }
@@ -228,6 +257,10 @@ nav{
         @media @mobile{
           width:100%;
           height:200px;
+        }
+        @media @tablet{
+          height:300px;
+          //border:solid red;
         }
     }
 
@@ -253,6 +286,11 @@ nav{
             padding:10px 10px 10px 10px;
             
         }
+
+        @media @tablet{
+          //border:solid red;
+          padding-top:0px;
+        }
     }
     .calendar{
         width:50%;
@@ -262,6 +300,10 @@ nav{
         @media @mobile{
             width:100%;
             padding:10px 10px 10px 10px;
+        }
+        @media @tablet{
+          //border:solid red;
+          margin-top:10px;
         }
     }
     .middlebtn{
@@ -273,6 +315,12 @@ nav{
         margin-top:10px;
         font-family: @main-font;
         cursor: pointer;
+
+        @media @tablet{
+          //border:solid red;
+          width:150px;
+          margin-left:25%;
+        }
     }
 }
 
@@ -335,6 +383,8 @@ footer{
 // media queries
 
 @mobile: ~"(max-width: 500px)";
+
+@tablet:~"(max-width:800px)";
 
 
 // about page and tabs
