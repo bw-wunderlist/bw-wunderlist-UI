@@ -163,6 +163,9 @@ html,
 body {
   height: 100%;
 }
+body {
+  background: linear-gradient(white, #c2bfbf, #c2bfbf, white);
+}
 .container {
   width: 1000px;
   margin: auto;
