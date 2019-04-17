@@ -404,6 +404,10 @@ footer .footernav {
   display: flex;
   justify-content: center;
 }
+.wunderlist {
+  color: #ffa500;
+  cursor: pointer;
+}
 .cards-container {
   display: flex;
   justify-content: space-evenly;
