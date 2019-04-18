@@ -202,6 +202,7 @@ header {
 }
 header .headerbtn {
   background: silver;
+  color: #0e0b2a;
   border-radius: 5px;
   padding: 5px 5px 5px 5px;
   margin: 5px 5px 5px 5px;
@@ -362,6 +363,7 @@ nav a {
 }
 .middle-content .middlebtn {
   background: silver;
+  color: #0e0b2a;
   border-radius: 5px;
   width: 20%;
   margin-left: 36%;
