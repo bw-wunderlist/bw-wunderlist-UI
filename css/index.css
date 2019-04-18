@@ -243,6 +243,10 @@ header .logo {
     justify-content: center;
   }
 }
+header .logo .logoA {
+  text-decoration: none;
+  color: #ffa500;
+}
 nav {
   display: flex;
   padding-right: 20px;
