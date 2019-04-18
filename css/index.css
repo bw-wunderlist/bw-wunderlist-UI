@@ -113,7 +113,7 @@ h2 {
   color: #ffa500;
   padding: 10px 10px 10px 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   h2 {
     width: 100%;
     display: flex;
@@ -126,7 +126,7 @@ h3 {
   color: #ffa500;
   padding: 10px 10px 10px 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   h3 {
     width: 100%;
     display: flex;
@@ -173,12 +173,12 @@ body {
   width: 1000px;
   margin: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .container {
     width: 100%;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .container {
     width: 100%;
   }
@@ -188,13 +188,13 @@ header {
   justify-content: center;
   background: #0e0b2a;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   header {
     width: 100%;
     flex-direction: column;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   header {
     width: 100%;
     flex-direction: column;
@@ -209,13 +209,13 @@ header .headerbtn {
   font-family: 'BioRhyme', serif;
   cursor: pointer;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   header .headerbtn {
     width: 100%;
     margin: auto;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   header .headerbtn {
     width: 50%;
     margin-left: 25%;
@@ -232,7 +232,7 @@ header .logo {
   color: #ffa500;
   cursor: pointer;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   header .logo {
     width: 100%;
     display: flex;
@@ -240,7 +240,7 @@ header .logo {
     margin: auto;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   header .logo {
     width: 98%;
     display: flex;
@@ -256,7 +256,7 @@ nav {
   padding-right: 20px;
   padding-left: 20px;
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   nav {
     width: 98%;
     display: flex;
@@ -274,7 +274,7 @@ nav a {
 .top-content {
   display: flex;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .top-content {
     width: 100%;
     margin-bottom: 0px;
@@ -285,7 +285,7 @@ nav a {
   flex-direction: row-reverse;
   padding: 10px 10px 10px 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .top-content .intro {
     padding: 10px 10px 10px 10px;
     flex-direction: column;
@@ -296,12 +296,12 @@ nav a {
   flex-direction: column;
   padding: 70px 10px 10px 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .top-content .intro .intro-text {
     padding-top: 10px;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .top-content .intro .intro-text {
     padding-top: 0px;
   }
@@ -311,13 +311,13 @@ nav a {
   height: 400px;
   border-radius: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .top-content .planner {
     width: 100%;
     height: 200px;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .top-content .planner {
     height: 300px;
   }
@@ -327,7 +327,7 @@ nav a {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .middle-content {
     width: 100%;
     flex-direction: column;
@@ -338,12 +338,12 @@ nav a {
   flex-direction: column;
   padding: 10px 10px 10px 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .middle-content .middle-text {
     padding: 10px 10px 10px 10px;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .middle-content .middle-text {
     padding-top: 0px;
   }
@@ -353,13 +353,13 @@ nav a {
   height: 250px;
   border-radius: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .middle-content .calendar {
     width: 100%;
     padding: 10px 10px 10px 10px;
   }
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .middle-content .calendar {
     margin-top: 10px;
   }
@@ -374,7 +374,7 @@ nav a {
   font-family: 'BioRhyme', serif;
   cursor: pointer;
 }
-@media (max-width:800px) {
+@media (max-width:1025px) {
   .middle-content .middlebtn {
     width: 150px;
     margin-left: 25%;
@@ -407,7 +407,7 @@ footer {
   background: #0e0b2a;
   width: 100%;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   footer {
     width: 100%;
   }
@@ -488,7 +488,7 @@ footer .footernav {
   font-weight: bold;
   color: #ffa500;
 }
-@media (max-width: 500px) {
+@media (max-width: 699px) {
   .tabs .members .about {
     display: none;
   }
