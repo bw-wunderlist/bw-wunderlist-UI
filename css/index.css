@@ -221,6 +221,9 @@ header .headerbtn {
     margin-left: 25%;
   }
 }
+header .headerbtn:hover {
+  background-color: #e2dfdf;
+}
 header .logo {
   font-size: 1.8rem;
   padding-right: 40px;
@@ -376,6 +379,9 @@ nav a {
     width: 150px;
     margin-left: 25%;
   }
+}
+.middlebtn:hover {
+  background-color: #e2dfdf;
 }
 .bottom-content {
   display: flex;
