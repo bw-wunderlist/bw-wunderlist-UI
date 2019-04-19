@@ -122,15 +122,17 @@ header{
     //border:dashed black;
     display:flex;
    justify-content: center;
-   background:#0e0b2a;
+   background:linear-gradient(to left,rgb(194, 191, 191),@header-bg,@header-bg,@header-bg,#0e0b2a,rgb(194, 191, 191));
 
    @media @mobile{
     width:100%;
     flex-direction: column;
+    background:@header-bg;
 }
     @media @tablet{
       width:100%;
       flex-direction: column;
+      background:@header-bg;
     }
 
    .headerbtn{
@@ -370,7 +372,17 @@ nav{
   display:flex;
   justify-content: center;
   color:@h1-color;
-  background: @header-bg;
+  background:linear-gradient(to left,rgb(194, 191, 191),@header-bg,@header-bg,@header-bg,#0e0b2a,rgb(194, 191, 191));
+
+  @media @mobile{
+    background:@header-bg;
+  }
+
+  @media @tablet{
+    background:@header-bg;
+  }
+
+
 }
 
 
@@ -378,10 +390,15 @@ footer{
     display:flex;
     
    // border:solid yellow;
-    background:@header-bg;
+   background:linear-gradient(to left,rgb(194, 191, 191),@header-bg,@header-bg,@header-bg,#0e0b2a,rgb(194, 191, 191));
     width:100%;
     @media @mobile{
         width:100%;
+        background:@header-bg;
+    }
+
+    @media @tablet{
+      background:@header-bg;
     }
 
     .footernav{

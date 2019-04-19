@@ -186,18 +186,20 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background: #0e0b2a;
+  background: linear-gradient(to left, #c2bfbf, #0e0b2a, #0e0b2a, #0e0b2a, #0e0b2a, #c2bfbf);
 }
 @media (max-width: 699px) {
   header {
     width: 100%;
     flex-direction: column;
+    background: #0e0b2a;
   }
 }
 @media (max-width:1025px) {
   header {
     width: 100%;
     flex-direction: column;
+    background: #0e0b2a;
   }
 }
 header .headerbtn {
@@ -400,16 +402,32 @@ nav a {
   display: flex;
   justify-content: center;
   color: #ffa500;
-  background: #0e0b2a;
+  background: linear-gradient(to left, #c2bfbf, #0e0b2a, #0e0b2a, #0e0b2a, #0e0b2a, #c2bfbf);
+}
+@media (max-width: 699px) {
+  .attribution {
+    background: #0e0b2a;
+  }
+}
+@media (max-width:1025px) {
+  .attribution {
+    background: #0e0b2a;
+  }
 }
 footer {
   display: flex;
-  background: #0e0b2a;
+  background: linear-gradient(to left, #c2bfbf, #0e0b2a, #0e0b2a, #0e0b2a, #0e0b2a, #c2bfbf);
   width: 100%;
 }
 @media (max-width: 699px) {
   footer {
     width: 100%;
+    background: #0e0b2a;
+  }
+}
+@media (max-width:1025px) {
+  footer {
+    background: #0e0b2a;
   }
 }
 footer .footernav {
